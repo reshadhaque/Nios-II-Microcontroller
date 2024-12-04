@@ -1,0 +1,9 @@
+
+module inst_test(input logic clk, input logic reset);
+
+cpu u0 (
+		.clk_clk       (clk),       //   clk.clk
+		.reset_reset_n (reset)  // reset.reset_n
+	);
+
+endmodule
